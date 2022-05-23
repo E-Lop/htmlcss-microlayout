@@ -47,8 +47,10 @@
 }
 .ms_green_dots a {
   color: black;
+  text-decoration-style: dotted;
   text-decoration-color: gray;
-  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
   vertical-align: text-bottom;
 }
 
@@ -58,7 +60,7 @@
 }
 
 /*** MEDIA QUERIES ***/
-@media screen and (min-width: 992) {
+@media screen and (min-width: 992px) {
   .ms_smaller_container .ms_best_offer {
     order: 2;
   }
