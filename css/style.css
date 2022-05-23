@@ -45,9 +45,24 @@
   padding-left: 5px;
   vertical-align: middle;
 }
-.reviews a {
+.ms_green_dots a {
+  color: black;
   text-decoration-color: gray;
   text-decoration: dotted;
   vertical-align: text-bottom;
-  font-size: 1.5rem;
+}
+
+.ms_best_offer {
+  /* todo test */
+  background-color: aqua;
+}
+
+/*** MEDIA QUERIES ***/
+@media screen and (min-width: 992) {
+  .ms_smaller_container .ms_best_offer {
+    order: 2;
+  }
+  .ms_smaller_container .ms_green_dots {
+    order: 5;
+  }
 }
