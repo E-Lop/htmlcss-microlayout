@@ -1,0 +1,53 @@
+/* COMMON */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+/* MAIN */
+
+/* colonna immagine */
+.ms_hero_img {
+  position: relative;
+}
+
+.ms_hero_img img {
+  width: 100%;
+  object-fit: cover;
+}
+.heart {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 3rem;
+}
+
+.circles > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.circle {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: green;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+.reviews {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.reviews a {
+  text-decoration-color: gray;
+  text-decoration: dotted;
+  vertical-align: text-bottom;
+  font-size: 1.5rem;
+}
